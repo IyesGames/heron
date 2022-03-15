@@ -8,6 +8,13 @@ Unreleased changes (if any) can be found in the latest [release pull-request].
 [release pull-request]: https://github.com/jcornaz/heron/pulls?q=is%3Apr+is%3Aopen+label%3A%22autorelease%3A+pending%22
 
 
+### [2.2.1](https://github.com/jcornaz/heron/compare/v2.2.0...v2.2.1) (2022-03-15)
+
+
+### Documentation
+
+* **contributing:** Update contributing guidelines ([1e308e2](https://github.com/jcornaz/heron/commit/1e308e2066e7efb88f3f867a5e13a391fb0921a4))
+
 ## [2.2.0](https://github.com/jcornaz/heron/compare/v2.1.0...v2.2.0) (2022-03-07)
 
 
