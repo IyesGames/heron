@@ -69,7 +69,6 @@ impl Plugin for CorePlugin {
         app.init_resource::<Gravity>()
             .init_resource::<PhysicsTime>()
             .init_resource::<PhysicsSteps>()
-            .register_type::<CollisionShape>()
             .register_type::<RigidBody>()
             .register_type::<PhysicMaterial>()
             .register_type::<Velocity>()
@@ -153,7 +152,7 @@ impl core::fmt::Debug for CustomCollisionShape {
 ///         .insert(CollisionShape::Sphere { radius: 1.0 }); // Attach a collision shape
 /// }
 /// ```
-#[derive(Debug, Clone, Component, Reflect)]
+#[derive(Debug, Clone, Component)]
 #[non_exhaustive]
 pub enum CollisionShape {
     /// A sphere (or circle in 2d) shape defined by its radius
